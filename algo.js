@@ -44,7 +44,7 @@ if(testNombre){
 }
 
 const age = parseInt(prompt("Quelle est votre age"));
-const sexe = prompt("Quelle est votre genre, Répondez par 'F' ou 'M'");
+const sexe = prompt("Quelle est votre genre, Répondez par 'F' pour une femme ou 'M' pour un homme");
 if(age > 20 && sexe === "M"){
   console.log('paie impots');
 }else if(age >= 18 && age <= 35 && sexe === "F"){
@@ -52,6 +52,7 @@ if(age > 20 && sexe === "M"){
 }else{
   console.log("paie pas l'impots");
 }
+
 
 
 
